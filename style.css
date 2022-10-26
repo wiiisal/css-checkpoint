@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url("https://i.natgeofe.com/k/5fe697ce-0129-40e9-a945-60d617a6eff0/ngk_spacehub3_2_16x9.jpg?w=1200");
+
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 0px;
+    
+   
+}
+
+.logo img{
+    width: 200px;
+    border-radius: 20px;
+    border-style:groove;
+}
+h1{
+    text-align: center;
+    padding-left: 90px;
+    color:rgb(147, 12, 116);
+    font-style:italic ;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 0px;
+}
+nav ul li a{
+    text-decoration:overline;
+    width: 20px;
+    height: 20px;
+    color: rgba(158, 43, 108, 0.926);
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.run-1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.run-1 img{
+    width: 100%;
+    padding: 25px 25px;
+    border-style: outset;
+}
+.run-1 h2{
+    font-size: 90px;
+    line-height: 60px;
+    margin: 25px 0;
+    color:rgba(183, 15, 149, 0.934);
+    font-style: italic;
+    
+}
+p{
+    color:rgb(110, 8, 8);
+    text-decoration: underline;
+}
+a{
+    display: inline;
+    text-decoration:overline;
+    color: aqua;
+    padding: 8px 30px;
+    background-color: rgba(232, 32, 209, 0.841);
+    border-radius:  25px; ;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.header-section{
+    padding-left: 20px;
+    padding: top -25px;
+}
+
+nav img{
+    border-radius: 20px;
+    align-items:inline;
+    padding-left: 25px;
+}
+/* style section categories */
+.categories{
+    margin: 70px 0;
+}
+.run-2{
+  flex-basis: 30%;
+    min-width: 250px;
+    margin:auto;
+    align-items: center;
+}
+.run-2 img{
+    width: 400px;
+    padding-right: 25px;
+    /* style section footer */
+}
+.run-3{
+    color: blueviolet;
+    text-align: justify;
+    transition:all;
+    margin-left: 550px;
+    margin-bottom: 100px;
+    font-size: xx-large; 
+    text-decoration:solid;
+
+}
+
+.video{
+    text-align: center;
+}
+
+
+.run{
+    text-decoration:underline;
+    color: rgb(248, 53, 212);
+    
+}
+.run-4{
+    margin-left: 0;
+}
